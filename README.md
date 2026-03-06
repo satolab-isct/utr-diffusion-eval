@@ -12,7 +12,7 @@ The evaluation pipeline converts generated FASTA sequences into a tabular format
 ---
 
 # Repository Structure
-
+```text
 utr-diffusion-eval/
 ├── evaluate.py # main CLI evaluation script
 ├── requirements.txt # Python dependencies
@@ -24,7 +24,7 @@ utr-diffusion-eval/
 ├── Prediction/ # prediction utilities
 ├── LICENSE
 └── README.md
-
+```
 ---
 
 # Installation
