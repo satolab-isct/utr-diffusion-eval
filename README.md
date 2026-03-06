@@ -73,6 +73,7 @@ RNAfold --version
 The script automatically writes the output to a CSV file with the same basename as the input FASTA file.
 For example, generated_sequences.fasta will produce generated_sequences.csv.
 
+## Basic example
 ```bash
 python evaluate.py \
   --fasta generated_sequences.fasta \
@@ -81,8 +82,7 @@ python evaluate.py \
   --rnafold-path RNAfold
 ```
 
-Commend with more details
-
+## Example with additional options
 ```bash
 python evaluate.py \
   --fasta generated_sequences.fasta \
