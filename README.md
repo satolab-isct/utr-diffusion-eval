@@ -32,14 +32,14 @@ utr-diffusion-eval/
 We recommend creating a clean Python environment before installing dependencies.
 
 ### Option 1: using conda
-bash```
+```bash
 conda create -n utr-eval python=3.10
 conda activate utr-eval
 pip install -r requirements.txt
 ```
 
 ### Option 2: using venv
-bash```
+```bash
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -53,12 +53,12 @@ MFE prediction relies on **ViennaRNA**.
 
 Please install ViennaRNA separately:
 
-bash```
+```bash
 conda install -c bioconda viennarna
 ```
 or
 
-bash```
+```bash
 sudo apt install viennarna
 ```
 
