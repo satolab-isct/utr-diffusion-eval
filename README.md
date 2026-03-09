@@ -82,7 +82,7 @@ For example, generated_sequences.fasta will produce generated_sequences.csv.
 ```bash
 python evaluate.py \
   --fasta generated_sequences.fasta \
-  --model Prediction/model.pt \
+  --model Model/model.pt \
   --device cuda:0 \
   --rnafold-path RNAfold
 ```
@@ -91,7 +91,7 @@ python evaluate.py \
 ```bash
 python evaluate.py \
   --fasta generated_sequences.fasta \
-  --model Prediction/model.pt \
+  --model Model/model.pt \
   --device cuda:0 \
   --inp-len 50 \
   --batch-toks 32768 \
