@@ -76,7 +76,7 @@ evaluation_results.csv
 
 # Usage
 The script automatically writes the output to a CSV file with the same basename as the input FASTA file.
-For example, generated_sequences.fasta will produce generated_sequences.csv.
+For example, amino_demo.fasta will produce generated_sequences.csv.
 
 ## Basic example
 ```bash
@@ -100,5 +100,5 @@ python evaluate.py \
 ```
 
 ## Output
-generated_sequences.csv
+amino_demo.csv
 
