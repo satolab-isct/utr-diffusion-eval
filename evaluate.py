@@ -272,7 +272,7 @@ def predict_mfe(df: pd.DataFrame, rnafold_path: str, batch_size: int = 1000) -> 
 def parse_args():
     p = argparse.ArgumentParser(description="UTRLM predictor for UTR-Diffusion evaluation (MRL).")
     p.add_argument("--fasta", required=True, help="Input FASTA file")
-    p.add_argument("--model", default='Prediction/model.pt', help="Model checkpoint path (e.g., model.pt)")
+    p.add_argument("--model", default='Model/model.pt', help="Model checkpoint path (e.g., model.pt)")
     p.add_argument("--device", default="cuda", help="cuda | cuda:0 | cpu")
     p.add_argument("--inp-len", type=int, default=50, help="Sequence length used for inference (take last N bases).")
     p.add_argument("--batch-toks", type=int, default=4096 * 8, help="Tokens per batch (controls batch size).")
