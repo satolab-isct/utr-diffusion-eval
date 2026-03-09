@@ -99,3 +99,7 @@ python evaluate.py \
   --rnafold-path RNAfold \
   --mfe-batch 100
 ```
+
+# Output
+generated_sequences.csv
+
