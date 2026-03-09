@@ -11,22 +11,6 @@ The evaluation pipeline converts generated FASTA sequences into a tabular format
 
 ---
 
-# Repository Structure
-```text
-utr-diffusion-eval/
-├── evaluate.py # main CLI evaluation script
-├── requirements.txt # Python dependencies
-├── scripts/ # helper scripts
-│ ├── fasta_to_csv.py
-│ ├── predict_MFE.py
-│ └── pt_to_fasta.py
-├── Model/ # pretrained UTR-LM model
-├── Prediction/ # prediction utilities
-├── LICENSE
-└── README.md
-```
----
-
 # Installation
 
 We recommend creating a clean Python environment before installing dependencies.
