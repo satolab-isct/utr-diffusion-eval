@@ -10,9 +10,7 @@ from argparse import Namespace
 from pathlib import Path
 
 import torch
-
-import esm
-from esm.model.esm2 import ESM2
+from Scripts.esm.model.esm2 import ESM2
 
 
 def _has_regression_weights(model_name):

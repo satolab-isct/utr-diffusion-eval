@@ -7,12 +7,11 @@ import torch
 import torch.nn as nn
 from Bio import SeqIO
 import subprocess
-from pathlib import Path
 
 
 # Your project imports
-from Prediction.esm import Alphabet, FastaBatchedDataset
-from Prediction.esm.model.esm2_secondarystructure import ESM2 as ESM2_SISS
+from Scripts.esm import Alphabet, FastaBatchedDataset
+from Scripts.esm.model.esm2_secondarystructure import ESM2 as ESM2_SISS
 
 # ---------------------------
 # Config

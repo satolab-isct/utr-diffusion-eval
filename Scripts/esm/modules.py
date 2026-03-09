@@ -10,8 +10,8 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from .multihead_attention import MultiheadAttention  # noqa
-from .axial_attention import ColumnSelfAttention, RowSelfAttention
+from Scripts.esm.multihead_attention import MultiheadAttention  # noqa
+from Scripts.esm.axial_attention import ColumnSelfAttention, RowSelfAttention
 
 
 def gelu(x):

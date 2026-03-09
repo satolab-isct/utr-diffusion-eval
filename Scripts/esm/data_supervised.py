@@ -11,7 +11,7 @@ import re
 import shutil
 import torch
 from pathlib import Path
-from .constants import proteinseq_toks, rnaseq_toks
+from Scripts.esm.constants import proteinseq_toks, rnaseq_toks
 import math
 import random
 from copy import deepcopy

@@ -7,8 +7,8 @@ from typing import Union
 import torch
 import torch.nn as nn
 
-import esm
-from esm.modules import ContactPredictionHead, ESM1bLayerNorm, RobertaLMHead, TransformerLayer
+import Scripts.esm as esm
+from Scripts.esm.modules import ContactPredictionHead, ESM1bLayerNorm, RobertaLMHead, TransformerLayer
 # ```该代码定义了一个名为 ESM2 的 PyTorch 模型，继承自 nn.Module。在 __init__ 方法中，定义了一些超参数，例如 num_layers、embed_dim、attention_heads 等等。同时，它还初始化了一些子模块，例如 Embedding 层 embed_tokens、一系列 Transformer 层 layers、预测接触的 ContactPredictionHead 层 contact_head，以及一些线性层 lm_head、supervised_linear、structure_linear 等。该模型的前向传播在 forward 方法中定义，接收一个表示序列的 token 序列 tokens，返回预测的标签和其他附加信息。```
 
 class ESM2(nn.Module):
