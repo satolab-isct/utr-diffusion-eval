@@ -13,19 +13,18 @@ The evaluation pipeline converts generated FASTA sequences into a tabular format
 
 # Installation
 
-We recommend creating a clean Python environment before installing dependencies.
+First, clone this repository:
 
-### Option 1: using conda
+```bash
+git clone https://github.com/satolab-isct/utr-diffusion-eval.git
+cd utr-diffusion-eval
+```
+
+We recommend creating a clean Conda environment before installing dependencies:
+
 ```bash
 conda create -n utr-eval python=3.10
 conda activate utr-eval
-pip install -r requirements.txt
-```
-
-### Option 2: using venv
-```bash
-python -m venv venv
-source venv/bin/activate
 pip install -r requirements.txt
 ```
 
