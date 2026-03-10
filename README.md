@@ -48,7 +48,7 @@ sudo apt install viennarna
 Make sure `RNAfold` is available in your PATH:
 
 ```bash
-RNAfold --version
+which RNAfold
 ```
 ---
 
