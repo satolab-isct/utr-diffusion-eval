@@ -81,7 +81,7 @@ For example, amino_demo.fasta will produce generated_sequences.csv.
 ## Basic example
 ```bash
 python evaluate.py \
-  --fasta amino_demo.fasta \
+  --fasta example\amino_demo.fasta \
   --model Model/model.pt \
   --device cuda:0 \
   --rnafold-path RNAfold
@@ -90,7 +90,7 @@ python evaluate.py \
 ## Example with additional options
 ```bash
 python evaluate.py \
-  --fasta amino_demo.fasta \
+  --fasta example\amino_demo.fasta \
   --model Model/model.pt \
   --device cuda:0 \
   --inp-len 50 \
