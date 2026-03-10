@@ -49,6 +49,7 @@ Make sure `RNAfold` is available in your PATH:
 
 ```bash
 which RNAfold
+RNAfold --version
 ```
 ---
 
