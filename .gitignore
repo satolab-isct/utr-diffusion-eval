@@ -11,8 +11,3 @@ __pycache__/
 *.bin
 *.npz
 *.npy
-wandb/
-logs/
-outputs/
-data/
-results/
