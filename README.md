@@ -39,18 +39,15 @@ Please install ViennaRNA separately:
 ```bash
 conda install -c bioconda viennarna
 ```
-or
+
+After installation, make sure RNAfold is available in your PATH:
 
 ```bash
-sudo apt install viennarna
-```
-
-Make sure `RNAfold` is available in your PATH:
-
-```bash
-which RNAfold
+command -v RNAfold
 RNAfold --version
 ```
+If the installation is successful, the above commands should return the path to RNAfold and its version information.
+
 ---
 
 # Input Sequences
