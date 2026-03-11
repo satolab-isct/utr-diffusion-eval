@@ -277,7 +277,7 @@ def parse_args():
     p.add_argument("--inp-len", type=int, default=50, help="Sequence length used for inference (take last N bases).")
     p.add_argument("--batch-toks", type=int, default=4096 * 8, help="Tokens per batch (controls batch size).")
     p.add_argument("--seed", type=int, default=1337)
-    p.add_argument("--rnafold-path",default="/gs/bs/tga-satolab-gtex/dai/apps/vienna-rna/bin/RNAfold", help="Path to RNAfold binary.")
+    p.add_argument("--rnafold-path",default="RNAfold", help="Path to RNAfold binary.")
     p.add_argument("--mfe-batch", type=int, default=100, help="Batch size for RNAfold MFE computation.")
     return p.parse_args()
 
