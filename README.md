@@ -23,8 +23,8 @@ cd utr-diffusion-eval
 We recommend creating a clean Conda environment before installing dependencies:
 
 ```bash
-conda create -n utr-eval python=3.10
-conda activate utr-eval
+conda create -n utr-diffusion-eval python=3.10 -y
+conda activate utr-diffusion-eval
 pip install -r requirements.txt
 ```
 
